@@ -11820,6 +11820,15 @@ _:-ms-input-placeholder, :root .demo-graph {
 .fa {
   margin-right: 5px;
 }
+.welcome-dialog {
+  min-width: 500px;
+}
+.introjs-button {
+  font-size: 15px;
+}
+.introjs-skipbutton {
+  color: #333;
+}
 .mdl-layout__drawer {
   overflow: hidden;
   width: 40px;
@@ -11855,10 +11864,10 @@ _:-ms-input-placeholder, :root .demo-graph {
   opacity: 1;
 }
 .mdl-layout__drawer.is-expanded + .mdl-layout__header {
-  margin-left: 140px !important;
+  margin-left: 120px !important;
 }
 .mdl-layout__drawer.is-expanded ~ .mdl-layout__content {
-  margin-left: 140px !important;
+  margin-left: 120px !important;
 }
 .mdl-layout__header,
 .mdl-layout__content {
@@ -11919,6 +11928,13 @@ _:-ms-input-placeholder, :root .demo-graph {
   color: #fff;
   padding-left: 20px;
   text-decoration: none;
+  font-family: 'Gotham Rounded A', 'Gotham Rounded B', Helvetica, Arial, sans-serif;
+}
+.versionText {
+  font-size: 15px;
+  bottom: 5px;
+  color: #fff;
+  padding-left: 40px;
   font-family: 'Gotham Rounded A', 'Gotham Rounded B', Helvetica, Arial, sans-serif;
 }
 .mdl-layout__content {
@@ -12246,6 +12262,8 @@ div.table {
 }
 .acceptFacet {
   border-style: outset;
+  border-style: dotted;
+  border-color: #000;
 }
 .refuseFacet {
   opacity: 60%;
